@@ -1,7 +1,8 @@
 {
   "name": "weather-forecast",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "author": "paulwalczewski@icloud.com",
+  "homepage": "https://paulwalczewski.github.io/weather-forecast-react-component/",
   "private": false,
   "devDependencies": {
     "react-scripts": "0.7.0"
