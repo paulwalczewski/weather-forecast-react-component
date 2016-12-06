@@ -8,7 +8,7 @@ Demo: <a href='http://weather-forecast-react.musicrecon.com/'>http://weather-for
 2. cd to project
 3. run 'npm install'
 4. run 'npm start' for dev build
-5. run 'npm build' for production build
+5. run 'npm run build' for production build
 
 ## component usage
 Component uses http://openweathermap.org/ API to retrieve forecast data.

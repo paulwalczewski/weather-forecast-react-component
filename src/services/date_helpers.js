@@ -1,22 +1,12 @@
-export const getDayName = (date) => {
-  let d = new Date(date);
-  let weekdays = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
+import moment from 'moment';
 
-  return weekdays[d.getDay()];
+export const getDayName = (date) => {
+  return moment(date).format('dddd');
 }
 
 export const getTime = (date) => {
-  let d = new Date(date);
-  let h =  d.getHours(), m = '00';
-  let time = (h > 12) ? (h - 12 + ':' + m +' PM') : (h + ':' + m +' AM');
+  let h =  moment(date).get('hour'), m = '00';
+  let time = h + ':' + m;
 
   return time;
 }
